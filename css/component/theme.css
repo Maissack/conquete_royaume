@@ -1,0 +1,69 @@
+.theme-switch {
+    position: fixed;
+    top: 90px;
+    right: 20px;
+    z-index: 99;
+  }
+  
+#themeBtn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}
+  
+#themeBtn:hover {
+    background-color:  #FEBBB5;
+    color: #fff;
+}
+
+body {
+/* Styles par défaut pour le thème clair */
+    background-color: #fff;
+    color: #333;
+}
+  
+.dark {
+    /* Styles pour le thème sombre */
+    background-color: #333;
+    color: #fff;
+}
+
+.dark .goal {
+    background-color: #000;
+    color: #fff;
+}
+
+.dark .goal:hover{
+    background-color: #202020;
+}
+
+.dark #myBtn {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark #myBtn:hover {
+  background-color: #FEBBB5;
+  color: #fff;
+}
+
+body #myBtn:hover {
+    background-color:  #FEBBB5;
+    color: #fff;
+}
+
+body #myBtn{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+}

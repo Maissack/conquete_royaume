@@ -1,0 +1,196 @@
+@import url(component/conception.css);
+@import url(component/donation.css);
+@import url(component/gameplay.css);
+@import url(component/haut.css);
+@import url(component/intro.css);
+@import url(component/marketing.css);
+@import url(component/popup.css);
+@import url(component/teaser.css);
+@import url(component/theme.css);
+
+
+
+
+html{
+  overflow-x : hidden;
+}
+
+*{
+    font-family: 'Rise of Kingdom', sans-serif;
+}
+
+
+
+main{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer{
+    padding-top: 10%;
+}
+
+header h2{
+  font-size: 20px;
+  padding-top: 5px;
+  font-weight: bolder;
+}
+
+header h2 img{
+  padding-right: 5px;
+}
+
+
+
+/*La Responsive*/
+@media screen and (max-width:800px){
+
+    #intro h1{
+        font-size: 70px;
+    }
+
+    #intro h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #intro p{
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .footer{
+      padding-top: 30%;
+      padding-left: 5%;
+      padding-right: 10%;
+    }
+    #myBtn{
+      margin-right: -5%;
+    }
+    #donation p{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 15px;
+    } 
+    #donation h3{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 25px;
+    }
+    #gameplay p{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 15px;
+    } 
+    #gameplay h3{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 25px;
+    }
+    #conception p{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 15px;
+    } 
+    #conception h3{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 25px;
+    }
+    #teaser{
+      padding-top: 10%;
+    }
+    #teaser p{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 15px;
+    } 
+    #teaser h3{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 25px;
+    }
+    #marketing p{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 15px;
+    } 
+    #marketing h3{
+      padding-right: 5%;
+      padding-left: 5%;
+      font-size: 25px;
+    }
+    .theme-switch {
+      position: fixed;
+      top: 90px;
+      right: 20px;
+      width: 40px;
+      height: 20px;
+      font-size: 10px;
+    }
+    #myBtn {
+      width: 40px;
+      height: 30px;
+      font-size: 10px;
+      right: 20px;
+      padding: 5px;
+      margin-right: 1px;
+      bottom: 10px;
+    }
+    .desktop-only {
+      display: none;
+    }
+    
+    .mobile-only {
+      display: block;
+    }
+    .regles a{
+      width: 30%;
+      font-size: 20px;
+    }
+    .contribution button{
+      width: 30%;
+      font-size: 20px;
+    }
+    .marketing_pdf a{
+      width: 40%;
+      font-size: 17px;
+    }
+    #ombre_chinoise1 img{
+      width: 40%;
+      height: 30%;
+      margin-left: 25%;
+      margin-bottom: 30%;
+    }
+    #carouselExampleIndicators1 {
+      margin-bottom: -2%;
+  }
+
+    @keyframes shine {
+        0% {
+          background-position: 0;
+        }
+        60% {
+          background-position: 500px;
+        }
+        100% {
+          background-position: 900px;
+        }
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conquête des Royaumes</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <h2><img src="img/logo.png" style="width: 70px; height: 50px;" alt="">La Conquete des Royaumes</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#teaser">I. Teaser</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#marketing">II. Marketing</a>
+            </li>    
+            <li class="nav-item">
+              <a class="nav-link" href="#conception">III. Conception</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gameplay">IV. Gameplay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#donation">V. Donation goals</a>
+            </li>    
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+
+<main>
+  <!-- Bouton Remonter en Haut -->
+  
+  <button onclick="topFunction()" id="myBtn" title="Remonter en haut">
+    <span class="desktop-only">Remonter en haut</span>
+    <span class="mobile-only">Haut</span>
+  </button>
+
+  <!-- Bouton Thème Sombre & Clair -->
+  <div class="theme-switch">
+    <button onclick="toggleTheme()" id="themeBtn">Theme sombre</button>
+  </div>
+  
+
+
+
+  <section id="intro">
+    <h1>Magique et Fantastique <br> Jeu de Plateau</h1>
+    <h2 class="battlefield-text">Alliez-vous, Trahissez et regnez !</h2>
+    <div id="ombre_chinoise1">
+      <img src="img/samourai1.png" class="img-fluid" alt="">
+      <p class="synopsis">Plongez dans l’univers fantastique des royaumes magiques. <br> Vous incarnez un seigneur d’un territoire sans pareil. <br> Affrontez vos ennemis sur le champ de bataille et defendez votre terre en utilisant des sorts uniques de chaque royaume. <br> Alliez-vous, trahissez et soyez le dernier royaume survivant.</p>
+    </div>
+ 
+    <div class="regles">
+    <a href="https://drive.google.com/file/d/1YcxuJHoerw8iu7Xc8UM15CcK5O5SHi7M/view" target="_blank" class="btn btn-outline-success">Telechargez les regles</a>  
+    </div>
+
+  </section>
+
+
+  
+  <section id="teaser">
+    <h3>Teaser 3D</h3>
+    <p>Votre Grâce, je vous prie de contempler notre beau aparoir en 3D, crée avec tendresse et ardence sur Blender.</p>
+    <div class="teaser_video">
+      <iframe src="https://drive.google.com/file/d/1TLjF_lZDsdvaRJOoGuUjqmLfBENIwjcn/preview" width="640" height="480" allow="autoplay"></iframe>
+    </div>
+  </section>
+
+  <hr>
+
+
+  <section id="marketing">
+    <h3>Marketing</h3>
+    <p>Votre Seigneurie, je vous prie de nous faire part de votre jugement quant à la promotion et la diffusion de notre jeu.</p>
+  
+      <!--Carousel sur les éléments du marketing et com-->
+      <div id="carouselExampleIndicators1" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/marketing1.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="img/marketing2.png" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+        <div class="marketing_pdf">
+          <a href="https://drive.google.com/file/d/19CumxYKgNjqw84huThuVLW42M2CwKcJu/view?usp=share_link" target="_blank" class="btn btn-outline-success">Telechargez le pdf</a>  
+          </div>
+  </section>
+
+  <hr>
+
+
+  <section id="conception">
+    <h3>Conception</h3>
+    <p>Seigneur, contemplez les composantes de notre jeu qui ont été créées avec l'aide de Blender, du papier goudronné et du parchemin : coffret, plateau, pièces, remparts et cartes.</p>
+
+    <!--Carousel sur les éléments du jeu-->
+    <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="5" aria-label="Slide 6"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img src="img/boite.png" class="d-block w-100" alt="">
+        </div>
+      <div class="carousel-item">
+        <img src="img/plateau1.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/plateau2.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/carte.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pion1.png" class="d-block w-100" alt="">
+      </div>
+      <div class="carousel-item">
+        <img src="img/pion2.png" class="d-block w-100" alt="">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+  </section>
+
+  <hr>
+
+
+
+  <section id="gameplay">
+    <h3>Gameplay</h3>
+    <p>Appr... approchez Seigneur, contemplez notre nouveau jeu et son gameplay inouï.</p>
+    <div class="gameplay_video">
+      <iframe src="https://drive.google.com/file/d/11-FCbanClj-2gpz4IZl86nzIdg5fzbBj/preview" width="640" height="480" allow="autoplay"></iframe>
+      </div>
+  </section>
+
+  <hr>
+
+
+  <section id="donation">
+    <h3>Donation Goals</h3>
+    <p>Seigneur, je vous requiers d'acquiescer à l'essor de notre entreprise.</p>
+    <div class="contribution">
+      <button id="btn-contribuez" class="btn btn-outline-success">Contribution</button>
+    </div>
+    
+    
+  </section>
+
+
+  <div class="donation-goals">
+    <div class="goal">
+      <div class="title">Poster</div>
+      <div class="progress">
+        <div class="bar" style="width: 5%;"></div>
+      </div>
+      <div class="amount">5€</div>
+    </div>
+    
+    <div class="goal">
+      <div class="title">Figurine</div>
+      <div class="progress">
+        <div class="bar" style="width: 10%;"></div>
+      </div>
+      <div class="amount">10€</div>
+    </div>
+
+
+    <div class="goal">
+      <div class="title">Poster + Figurine + Dedicaces</div>
+      <div class="progress">
+        <div class="bar" style="width: 20%;"></div>
+      </div>
+      <div class="amount">20€</div>
+    </div>
+    
+    <div class="goal">
+      <div class="title">Jeu + Poster + Dedicaces</div>
+      <div class="progress">
+        <div class="bar" style="width: 50%;"></div>
+      </div>
+      <div class="amount">50€</div>
+    </div>
+    
+    <div class="goal">
+      <div class="title">Jeu + Figurine + Dedicaces</div>
+      <div class="progress">
+        <div class="bar" style="width: 100%;"></div>
+      </div>
+      <div class="amount">100€</div>
+    </div>
+  </div>
+
+
+  
+
+
+</main>
+
+<footer class="bg text-center text-lg-start">
+  <div class="footer">
+    <div class="text-center p-3">
+       © 2023 La Conquete des Royaumes · Jeu de plateau cree par 4 etudiants de l'iim
+      </div>
+    </div>
+</footer>
+
+
+  <script src="js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
